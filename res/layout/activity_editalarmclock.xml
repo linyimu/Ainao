@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="闹钟标题" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_numite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一" />
+
+        <CheckBox
+            android:id="@+id/cb_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二" />
+
+        <CheckBox
+            android:id="@+id/cb_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三" />
+
+        <CheckBox
+            android:id="@+id/cb_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四" />
+
+        <CheckBox
+            android:id="@+id/cb_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="五" />
+
+        <CheckBox
+            android:id="@+id/cb_suturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="六" />
+
+        <CheckBox
+            android:id="@+id/cb_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开" />
+
+    <CheckBox
+        android:id="@+id/cb_vibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="震动" />
+
+    <Button
+        android:id="@+id/btn_add_theme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="主题" />
+    
+    
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+
+</LinearLayout>

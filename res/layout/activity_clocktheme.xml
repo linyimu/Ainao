@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="主题名称" />
+
+    <EditText
+        android:id="@+id/et_musicUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="http://***/you.mp3" />
+
+    <EditText
+        android:id="@+id/et_bgUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="http://***/bg.jpg" />
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="在这里添加消息" />
+
+    <EditText
+        android:id="@+id/et_answer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="答案" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加" />
+
+</LinearLayout>
